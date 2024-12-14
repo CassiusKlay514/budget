@@ -1,0 +1,27 @@
+{
+  "name": "budget-master-mobile",
+  "version": "1.0.0",
+  "main": "app/app.ts",
+  "scripts": {
+    "start": "npx @nativescript/preview-cli",
+    "android": "ns run android",
+    "ios": "ns run ios",
+    "postinstall": "node ./node_modules/@nativescript/core/postinstall"
+  },
+  "dependencies": {
+    "@nativescript/core": "~8.5.0",
+    "@nativescript/theme": "~3.0.2"
+  },
+  "devDependencies": {
+    "@nativescript/android": "8.5.0",
+    "@nativescript/ios": "8.5.0",
+    "@nativescript/preview-cli": "1.0.5",
+    "@nativescript/types": "~8.5.0",
+    "@nativescript/webpack": "^5.0.15",
+    "typescript": "~4.8.4"
+  },
+  "nativescript": {
+    "id": "org.nativescript.budgetmaster",
+    "templateVersion": "v8"
+  }
+}

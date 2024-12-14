@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StackLayout class="goal-item">
+    <GridLayout rows="auto" columns="*, auto" class="goal-header">
+        <Label col="0" text="{{ title }}" class="goal-title" />
+        <Label col="1" text="{{ progressText }}" class="goal-progress-text" />
+    </GridLayout>
+    <GridLayout rows="auto" columns="*" class="progress-container">
+        <StackLayout class="progress-bar">
+            <StackLayout class="progress-value" width="{{ progress }}%" />
+        </StackLayout>
+    </GridLayout>
+    <Label text="{{ amountText }}" class="goal-amount" />
+</StackLayout>

@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "expenses": "Dépenses",
+    "goals": "Objectifs",
+    "analytics": "Analyses",
+    "settings": "Paramètres"
+  },
+  "landing": {
+    "title": "Prenez le contrôle de vos finances",
+    "subtitle": "Une application simple et intuitive pour gérer votre budget, suivre vos dépenses et atteindre vos objectifs financiers.",
+    "features": {
+      "tracking": {
+        "title": "Suivi des dépenses",
+        "description": "Suivez facilement toutes vos dépenses et catégorisez-les automatiquement"
+      },
+      "goals": {
+        "title": "Objectifs d'épargne",
+        "description": "Définissez des objectifs d'épargne et suivez votre progression"
+      },
+      "insights": {
+        "title": "Analyses intelligentes",
+        "description": "Obtenez des insights personnalisés pour optimiser votre budget"
+      }
+    }
+  },
+  "auth": {
+    "login": "Se connecter",
+    "loginTitle": "Connexion à votre compte",
+    "register": "S'inscrire",
+    "registerTitle": "Créer un compte",
+    "email": "Email",
+    "password": "Mot de passe",
+    "loginError": "Erreur de connexion",
+    "registerError": "Erreur d'inscription",
+    "noAccount": "Pas encore de compte ?",
+    "haveAccount": "Déjà un compte ?",
+    "registerNow": "S'inscrire maintenant",
+    "loginNow": "Se connecter"
+  }
+}

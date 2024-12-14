@@ -1,0 +1,7 @@
+{
+  "installDependencies": true,
+  "startCommand": "npx @nativescript/preview-cli",
+  "env": {
+    "NODE_VERSION": "16"
+  }
+}

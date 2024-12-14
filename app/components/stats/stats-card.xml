@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StackLayout class="stats-card">
+    <Label text="{{ title }}" class="stats-title" />
+    <Label text="{{ value }}" class="stats-value" />
+    <Label text="{{ trend }}" class="stats-trend {{ trendClass }}" />
+</StackLayout>

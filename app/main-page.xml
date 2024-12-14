@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" 
+      navigatingTo="navigatingTo" 
+      class="{{ isDark ? 'dark' : 'page' }}">
+    
+    <ActionBar title="Budget Master">
+        <ActionItem ios.position="right" android.position="actionBar">
+            <Label text="{{ isDark ? '☀️' : '🌙' }}" 
+                   tap="{{ toggleTheme }}" 
+                   class="action-item" />
+        </ActionItem>
+    </ActionBar>
+    
+    <ScrollView>
+        <StackLayout class="p-4">
+            <!-- Stats Cards -->
+            <GridLayout rows="auto" columns="*,*,*" class="stats-grid">
+                <Repeater items="{{ stats }}" colSpan="3">
+                    <Repeater.itemsLayout>
+                        <GridLayout columns="*,*,*" />
+                    </Repeater.itemsLayout>
+                    <Repeater.itemTemplate>
+                        <stats:StatsCard />
+                    </Repeater.itemTemplate>
+                </Repeater>
+            </GridLayout>
+
+            <!-- Goals -->
+            <StackLayout class="card m-t-16">
+                <Label text="Objectifs d'épargne" class="header" />
+                <Repeater items="{{ goals }}">
+                    <Repeater.itemTemplate>
+                        <goal:GoalProgress />
+                    </Repeater.itemTemplate>
+                </Repeater>
+            </StackLayout>
+
+            <!-- Transactions -->
+            <StackLayout class="card">
+                <Label text="Transactions récentes" class="header" />
+                <ListView items="{{ transactions }}" class="list-group">
+                    <ListView.itemTemplate>
+                        <transaction:TransactionItem />
+                    </ListView.itemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</Page>

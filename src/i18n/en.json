@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "expenses": "Expenses",
+    "goals": "Goals",
+    "analytics": "Analytics",
+    "settings": "Settings"
+  },
+  "landing": {
+    "title": "Take Control of Your Finances",
+    "subtitle": "A simple and intuitive application to manage your budget, track expenses and achieve your financial goals.",
+    "features": {
+      "tracking": {
+        "title": "Expense Tracking",
+        "description": "Easily track all your expenses and categorize them automatically"
+      },
+      "goals": {
+        "title": "Savings Goals",
+        "description": "Set savings goals and track your progress"
+      },
+      "insights": {
+        "title": "Smart Insights",
+        "description": "Get personalized insights to optimize your budget"
+      }
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "loginTitle": "Sign in to your account",
+    "register": "Register",
+    "registerTitle": "Create an account",
+    "email": "Email",
+    "password": "Password",
+    "loginError": "Login error",
+    "registerError": "Registration error",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "registerNow": "Register now",
+    "loginNow": "Sign in"
+  }
+}

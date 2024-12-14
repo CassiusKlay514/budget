@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GridLayout columns="auto, *, auto" class="transaction-item">
+    <Image col="0" src="{{ icon }}" class="transaction-icon" width="32" height="32" />
+    <StackLayout col="1">
+        <Label text="{{ title }}" class="transaction-title" />
+        <Label text="{{ formattedDate }}" class="transaction-date" />
+    </StackLayout>
+    <Label col="2" text="{{ formattedAmount }}" class="transaction-amount {{ amountClass }}" />
+</GridLayout>
